@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(
+    102.7deg,
+    rgb(253, 218, 255) 8.2%,
+    rgb(223, 173, 252) 19.6%,
+    rgb(173, 205, 252) 36.8%,
+    rgb(173, 252, 244) 73.2%,
+    rgb(202, 248, 208) 90.9%
+  );
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+#h1 {
+    text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#h2 {
+  background-color: rgb(122, 238, 228);
+  width: 70px;
+}
+
+.form {
+  border-width: 2px;
+  border-radius: 2px;
+  border-style: groove;
+  border-color: black;
+  box-shadow: 2px 10px rgb(81, 203, 252);
+
+  align-items: center;
+  padding: 40px;
+  font-size: 20px;
+  background-color: #d9f2ff;
+  width: 90%;
+  height: 50%;
+}
+
+#button {
+  width: 10%;
+  height: 22%;
+  background-color: black;
+  color: rgb(243, 242, 242);
+  padding: 5px;
+}
+
+#button:hover {
+  color: black;
+  background-color: rgb(201, 62, 236);
+}
+
+[type="checkbox"],
+[type="radio"] {
+  height: 15px;
+  width: 15px;
+}

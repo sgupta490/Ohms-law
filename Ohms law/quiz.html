@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="quiz.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Quiz</title>
+</head>
+
+<body>
+    <div  id="h1">
+    <h1>Ohm's Law</h1>
+    </div>
+    
+    <div class="form">
+        <h2 id="h2">Quiz</h2>
+        <form name="quiz" id="quiz">
+            <p>1. Ohm's law is applicable to</p>
+            <p><input type="radio" name="q1" value="A" />Semiconductors<br /></p>
+            <p><input type="radio" name="q1" value="B" />Vacuum tubes<br /> </p>
+            <p><input type="radio" name="q1" value="C" />Carbon resistors<br /> </p>
+            <p><input type="radio" name="q1" value="D" />Metallic Device<br /> </p><br />
+
+            <p>2. Correct form of ohm's law</p>
+            <p><input type="radio" name="q2" value="A" /> I = VR<br /></p>
+            <p><input type="radio" name="q2" value="B" />V ∝ I<br /></p>
+            <p><input type="radio" name="q2" value="C" /> V = IR<br /></p>
+            <p><input type="radio" name="q2" value="D" />Both B and C</p><br /><br />
+
+            <p> 3. An EMF source of 8.0 V is connected to a purely resistive electrical
+                appliance. An electric current of 2.0 A flows through it. What is the
+                resistance offered by the electrical appliances? <br /></p>
+            <p><input type="radio" name="q3" value="A" /> 4 ohm<br /></p>
+            <p><input type="radio" name="q3" value="B" /> 6 ohm<br /></p>
+            <p><input type="radio" name="q3" value="C" /> 2 ohm<br /></p>
+            <p><input type="radio" name="q3" value="D" />3 ohm<br /><br /></p>
+
+            <p>4. When the length of the conductor is doubled and the area of
+                cross-section remains the same then its resistance <br /></p>
+            <p><input type="radio" name="q4" value="A" />Remains the same<br /></p>
+            <p><input type="radio" name="q4" value="B" />Will be doubled<br /></p>
+            <p><input type="radio" name="q4" value="C" />Will become half<br /></p> 
+            <p><input type="radio" name="q4" value="D" />Will increase 4 times<br></p> <br>
+
+            <p>5. If the conductor resistance is 50 ohm and the current passing through
+                it is 5 A. What is the value of potential difference?<br /></p>
+            <p><input class="checkbox"  type="radio" name="q5" value="A" />150 V<br /></p>
+            <p><input class="checkbox" type="radio" name="q5" value="B" />250 V<br /></p>
+            <p><input class="checkbox" type="radio" name="q5" value="C" />15 V<br /></p>
+            <p><input class="checkbox" type="radio" name="q5" value="D" />50 V<br /><br /></p>
+
+            <input type="submit" value="Submit" id="button" onclick="check()" />
+        </form>
+    </div>
+    <p id="result"></p>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>
