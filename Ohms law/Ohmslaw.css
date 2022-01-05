@@ -42,6 +42,7 @@ html,body {
 .content {
     flex-grow: 1;
     margin: 5%;
+    width: 100%;
 }
 
 .input-area {
@@ -55,7 +56,7 @@ html,body {
 }
 
 .diagram {
-    width: 50%;
+    width: 100%;
 }
 
 .procedure {
@@ -74,6 +75,8 @@ html,body {
 .main-diagram {
     height: auto;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .main-diagram img {
@@ -84,25 +87,26 @@ html,body {
 }
 
 #R1 {
+    
     position: relative;
-    top: -274px;
-    left: 138px;
+    top: -270px;
+    left: 470px;
     width: 60px;
     height: 20px;
 }
 
 #R2 {
     position: relative;
-    top: -274px;
-    left: 150px;
+    top: -270px;
+    left: 480px;
     width: 60px;
     height: 20px;
 }
 
 #R3 {
     position: relative;
-    top: -274px;
-    left: 165px;
+    top: -270px;
+    left: 490px;
     width: 60px;
     height: 20px;
 }
@@ -110,21 +114,24 @@ html,body {
 #V {
     position: relative;
     top: -80px;
-    left: -120px;
+    left: 200px;
     width: 60px;
     height: 20px;
 }
 #A{
   position: relative;
-  top: -172px;
-  left: -260px;
+  top: -165px;
+  left: 80px;
   width: 60px;
   height: 20px;
 }
 
-cal-btn {
+.cal-btn {
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     
 }
 
@@ -155,7 +162,7 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     table-layout: 20px;
-    width: 100%;
+    width: 90%;
     border: none;
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -185,5 +192,6 @@ table {
   table tbody tr:nth-child(even) td {
     background: #edf2f7;
   }
-  
+
+     
  
